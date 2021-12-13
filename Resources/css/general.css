@@ -1,0 +1,231 @@
+/*.bg {
+  background: url('../images/ardrone-baner.jpeg') no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 350px; same height as jumbotron 
+  top:0;
+  left:0;
+  z-index: -1;
+}*/
+
+
+.text-white{
+  color: white;
+  text-shadow: #444 0 1px 1px;
+}
+.height-fix{
+  height: 100%;
+}
+.puntero{
+    cursor:pointer;
+}
+#tblEntrega tr{
+    font-size: 12px;
+}
+#tblEntrega th{
+    font-size: 12px;
+}
+.custom-checkbox {
+    min-height: 1rem;
+    padding-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+}
+.custom-checkbox .custom-control-indicator {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 10px;
+    background-color: #818181;
+    border-radius: 15px;
+    margin-right: 10px;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+    vertical-align: middle;
+    margin: 0 16px;
+    box-shadow: none;
+}
+.custom-checkbox .custom-control-indicator:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #f1f1f1;
+    border-radius: 21px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+    left: -2px;
+    top: -4px;
+    -webkit-transition: left .3s ease, background .3s ease, box-shadow .1s ease;
+    transition: left .3s ease, background .3s ease, box-shadow .1s ease;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-indicator {
+    background-color: #84c7c1;
+    background-image: none;
+    box-shadow: none !important;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-indicator:after {
+    background-color: #84c7c1;
+    left: 15px;
+}
+.custom-checkbox .custom-control-input:focus ~ .custom-control-indicator {
+    box-shadow: none !important;
+}
+
+/*CSS para mensajes*/
+.conversation-wrap
+{
+    box-shadow: -2px 0 3px #ddd;
+    padding:0;
+    max-height: 300px;
+    overflow: auto;
+}
+.scrollbar::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+    width: 9px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+.conversation
+{
+    padding:5px;
+    border-bottom:1px solid #ddd;
+    margin:0;
+
+}
+
+.message-wrap
+{
+    box-shadow: 0 0 3px #fff;
+    padding:0;
+
+}
+.msg
+{
+    padding:5px;
+    /*border-bottom:1px solid #ddd;*/
+    margin:0;
+}
+.msg-wrap
+{
+    padding:10px;
+    max-height: 400px;
+    overflow: auto;
+    border-bottom: 1px solid #eee;
+
+}
+
+.time
+{
+    color:#020;
+}
+
+.send-wrap
+{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding:10px;
+    /*background: #f8f8f8;*/
+}
+
+.send-message
+{
+    resize: none;
+}
+
+.highlight
+{
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+.send-message-btn
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+    border-bottom-right-radius: 0;
+}
+.btn-panel
+{
+    background: #f7f7f9;
+}
+
+.btn-panel .btn
+{
+    color:#666;
+
+    transition: 0.2s all ease-in-out;
+}
+
+.btn-panel .btn:hover
+{
+    color:#000;
+    background: #f8f8f8;
+}
+.btn-panel .btn:active
+{
+    background: #f8f8f8;
+    box-shadow: 0 0 1px #ddd;
+}
+
+.btn-panel-conversation .btn,.btn-panel-msg .btn
+{
+
+    background: #f8f8f8;
+}
+.btn-panel-conversation .btn:first-child
+{
+    border-right: 1px solid #ddd;
+}
+
+.msg-wrap .media-heading
+{
+    color:#003bb3;
+    font-weight: 700;
+}
+
+
+.msg-date
+{
+    background: none;
+    text-align: center;
+    color:#aaa;
+    border:none;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+}
+#ajax-content{
+    padding-top: 20px;
+}
+.navbar {
+    border: 0;
+}
+.dataTables_wrapper {
+    position: relative;
+    min-height: 302px;
+    _height: 302px;
+    clear: both;
+}
+.cell-overflow {
+    width: 100px;
+    height: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
